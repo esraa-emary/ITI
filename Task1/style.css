@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #8ba8ca;
+    font-family: 'Poppins',sans-serif;
+}
+
+.h2-home{
+    font-family: 'Tangerine',sans-serif;
+    color: rgb(133, 23, 68);
+    font-size: 2.5rem;
+    font-weight: 5000;
+    text-decoration: underline;
+    text-align: end;
+}
+
+.img-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.h1-main{
+    text-decoration: underline;
+}
+
+.h-main{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #000; 
+}
+
+.content ul {
+    margin-left: 50px;
+}
+
+.content ol {
+    margin-left: 40px;
+}
+
+.h1-main2{
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+.content{
+    margin: 2rem 1rem;
+}
+
+.extra-format ol{
+    margin-left: 40px;
+}
+
+.li-6{
+    color: red;
+}
+
+.li-5{
+    font-size: 2rem;
+}
+
+.li-4{
+    font-size: 2rem;
+    font-family: 'Tangerine',sans-serif;
+}
+
+.extra-format{
+    margin: 2rem 1rem;
+    margin-bottom: 10rem;
+}
+
+.links{
+    margin: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
