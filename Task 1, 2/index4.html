@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap">    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration">
+        <h1 class="h1-main">Registration Form</h1>
+        <table >
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" placeholder="Enter Your First Name" required></td>
+            </tr>
+            <tr>
+                <td>Second Name</td>
+                <td><input type="text" placeholder="Enter Your Second Name" required ></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Enter Your Email" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="email" placeholder="Enter Your Password" required></td>
+            </tr>
+            <tr>
+                <td rowspan="2">  Gender</td>
+                <td> <input type="radio" name="gender" required> Female</td>
+            </tr>
+            <tr>
+                <td> <input type="radio" name="gender" required> Male</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select a country..</option>
+                        <optgroup label="Africa">
+                            <option value="rr">Egypt</option>
+                            <option value="rr">Sudan</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="rr">Italy</option>
+                            <option value="rr">Spain</option>
+                        </optgroup>
+                        <optgroup label="Asia">
+                            <option value="rr">India</option>
+                            <option value="rr">Palestine</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="Interests">Interests</td>
+            </tr>
+            <tr>
+                <td colspan="2"  class="interests" >
+                    <input type="checkbox"> Sports
+                    <input type="checkbox"> Shoping
+                    <input type="checkbox"> Reading
+                    <br><br>
+                    <input type="checkbox"> Movies
+                    <input type="checkbox"> Fashion
+                    <input type="checkbox"> Music
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="Interests">Bio</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="input-text" required>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr >
+                <td colspan="2" class="interest">
+                    <button>Register..</button>
+                    <button>Clear..</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="links">
+        <a href="index.html">Previous</a>
+        <a href="index5.html">Next</a>
+    </div>
+</body>
+</html>
